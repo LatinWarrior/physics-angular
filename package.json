@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "main": "src/js/app.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "homepage": "https://html5boilerplate.com/",
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "name": "physics-angular",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server –-port 3589",
+    "start": "npm run lite"
+  },
+  "version": "1.0.0"
+}

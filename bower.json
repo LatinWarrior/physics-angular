@@ -1,0 +1,25 @@
+{
+  "name": "physics-angular",
+  "description": "Integration of PhysicsJS with AngularJS",
+  "main": "src/js/app.js",
+  "authors": [
+    "Luis <luis.f.blanco@gmail.com>"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "keywords": [
+    "Angular",
+    "PhysicsJS"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
