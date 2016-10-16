@@ -21,5 +21,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "PhysicsJS": "physicsjs#^0.7.0"
+  }
 }

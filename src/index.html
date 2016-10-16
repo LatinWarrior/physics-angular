@@ -18,7 +18,18 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container">
+            <div class="row" ng-controller="movingObjectController as objects">
+                <div class="col-md-8">
+                    <physics-canvas>
+                        <physics-body type="rectangle" body="objects.box1" options="{x: 450, y: 10, vy: -0.1, width: 15, height: 15}"></physics-body>
+                        <physics-body type="rectangle" body="objects.box2" options="{x: 350, y: 210, vy: -0.1, width: 15, height: 15}"></physics-body>
+                    </physics-canvas>
+                </div>
+            </div>
+        </div>
 
+        <script src="../bower_components/PhysicsJS/dist/physicsjs.js"></script>
+        <script src="../bower_components/angular/angular.js"></script>
     </body>
 </html>
